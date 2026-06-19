@@ -1,0 +1,144 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Maps/cap-east.tmx
+/copy:Maps/cap-east.tmx
+
+#begin Maps/cap-north.tmx
+/copy:Maps/cap-north.tmx
+
+#begin Maps/cap-south.tmx
+/copy:Maps/cap-south.tmx
+
+#begin Maps/cap-west.tmx
+/copy:Maps/cap-west.tmx
+
+#begin Maps/corner-bl.tmx
+/copy:Maps/corner-bl.tmx
+
+#begin Maps/corner-br.tmx
+/copy:Maps/corner-br.tmx
+
+#begin Maps/corner-tl.tmx
+/copy:Maps/corner-tl.tmx
+
+#begin Maps/corner-tr.tmx
+/copy:Maps/corner-tr.tmx
+
+#begin Maps/cross-section-1.tmx
+/copy:Maps/cross-section-1.tmx
+
+#begin Maps/cross-section-2.tmx
+/copy:Maps/cross-section-2.tmx
+
+#begin Maps/horizontal.tmx
+/copy:Maps/horizontal.tmx
+
+#begin Maps/map.tmx
+/copy:Maps/map.tmx
+
+#begin Maps/t-junction-east.tmx
+/copy:Maps/t-junction-east.tmx
+
+#begin Maps/t-junction-north.tmx
+/copy:Maps/t-junction-north.tmx
+
+#begin Maps/t-junction-south.tmx
+/copy:Maps/t-junction-south.tmx
+
+#begin Maps/t-junction-west.tmx
+/copy:Maps/t-junction-west.tmx
+
+#begin Maps/vertical.tmx
+/copy:Maps/vertical.tmx
+
+#begin Misc/10-score.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Misc/10-score.png
+
+#begin Misc/5-score.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Misc/5-score.png
+
+#begin Misc/double-score.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Misc/double-score.png
+
+#begin Misc/staircase.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Misc/staircase.png
+
+#begin Misc/text.png
+/copy:Misc/text.png
+
+#begin Misc/triple-score.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Misc/triple-score.png
+
+#begin Player/CharacterSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Player/CharacterSheet.png
+
+#begin Tilesets/tiles.png
+/copy:Tilesets/tiles.png
+

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PlatformerGame.Components.Player.Player" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQgBIBAIAIIAREiAAAIAQAQAAUACIBAYiAAEAAAAAA=</HashCode>
+      <FileName>Components\Player\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="saveManager" />
+      <Field Name="gameData" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformerGame.Components.DangerZone" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Components\DangerZone.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="Nez.Samples.PlatformerItem" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAA=</HashCode>
+      <FileName>Components\PlatformerItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformerGame.Helpers.GameData" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAAAAAAAAAAAEAAAIAAAAEAAAAAAAAIAAIAQA=</HashCode>
+      <FileName>Helpers\SaveManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="PlatformerGame.Helpers.SaveManager">
+    <Position X="10.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAQAICggAAAAAAAAAABEAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Helpers\SaveManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformerGame.Scenes.GameScene">
+    <Position X="2.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQgEADAQAIAAZABBAIAQSAAAiQAAAABAICAGJBBAAA=</HashCode>
+      <FileName>Scenes\GameScene.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="playerComponent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlatformerGame.Scenes.Level1">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQBAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Scenes\Level1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformerGame.Scenes.MainMenu">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQBAAAAAQAAAAAEAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Scenes\MainMenu.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="level1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlatformerGame.Game1">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAQAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mainMenu" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="PlatformerGame.Helpers.SettingsData" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\SaveManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
